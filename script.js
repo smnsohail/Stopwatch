@@ -11,7 +11,7 @@ function start(){
     interval = setInterval(()=>{
         elapsedTime = Date.now() - startTime;
         updateDisplay(elapsedTime);
-    }, 1000);
+    }, 0);
 }
 
 function stop(){
